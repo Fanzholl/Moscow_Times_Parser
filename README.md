@@ -77,6 +77,84 @@ playwright install chromium
 ## ✉️ Telegram: **[blacksunder](https://t.me/blacksunder)**
 ## ✈️ Mail: **whiteparser@icloud.com**
 
+---
 
+# Moscow Times News Parser
 
+A small Python script that scrapes fresh news from
+**[https://www.moscowtimes.ru/news](https://www.moscowtimes.ru/news)**
+and saves them into text files grouped by date.
 
+## 📌 What the script does
+
+* Opens the Moscow Times news page
+* Extracts:
+
+  * publication date
+  * time
+  * title
+  * link
+* Groups news by date (`DD.MM.YYYY`)
+* Saves them to text files (`./news/articles-<date>.txt`)
+* Prints extracted data to console
+* Creates `./news` directory if it does not exist
+
+The script uses **Playwright** and runs Chromium in headless mode.
+
+---
+
+## 🧰 Tech Stack
+
+* Python 3.10+
+* Playwright
+* Regular expressions
+* OS / filesystem API
+
+---
+
+Мить, без лишнего — правлю блок **Installation** под **UV**.
+
+---
+
+## 📦 Installation
+
+### 1) Create a virtual environment & install dependencies via **uv**
+
+```bash
+# create virtual environment (optional)
+uv venv
+source .venv/bin/activate
+```
+
+```bash
+# install Playwright
+uv pip install playwright
+```
+
+```bash
+# install browsers (Chromium)
+playwright install chromium
+```
+
+> **Note:** `playwright install` downloads browser binaries —
+> it is not a Python dependency so it must be installed separately.
+
+---
+
+## ✅ Quick Setup
+
+```bash
+git clone https://github.com/Fanzholl/Moscow_Times_Parser
+cd Moscow_Times_Parser
+
+uv venv
+source .venv/bin/activate
+
+uv pip install playwright
+playwright install chromium
+```
+
+---
+
+## ✈️ Telegram: **[blacksunder](https://t.me/blacksunder)**
+## 📧 Mail: **[whiteparser@icloud.com](mailto:whiteparser@icloud.com)**
