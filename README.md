@@ -74,11 +74,6 @@ playwright install chromium
 
 ---
 
-## ✉️ Telegram: **[blacksunder](https://t.me/blacksunder)**
-## ✈️ Mail: **whiteparser@icloud.com**
-
----
-
 # Moscow Times News Parser
 
 A small Python script that scrapes fresh news from
@@ -158,3 +153,4 @@ playwright install chromium
 
 ## ✈️ Telegram: **[blacksunder](https://t.me/blacksunder)**
 ## 📧 Mail: **[whiteparser@icloud.com](mailto:whiteparser@icloud.com)**
+
