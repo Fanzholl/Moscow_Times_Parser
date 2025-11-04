@@ -105,9 +105,6 @@ git checkout -b fix/my-bugfix
 
 Спасибо за вклад!
 
-```
-```
-
 ---
 
 ````markdown
@@ -217,6 +214,3 @@ Open an Issue or draft PR to discuss proposals.
 5. Describe your change
 
 Thank you for contributing.
-
-```
-```
