@@ -74,6 +74,7 @@ playwright install chromium
 
 ---
 
-## ✉️ Telegram: **@blacksunder**
+## ✉️ Telegram: **blacksunder**
 ## ✈️ Mail: **whiteparser@icloud.com**
+
 
