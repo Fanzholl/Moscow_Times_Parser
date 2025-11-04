@@ -106,7 +106,6 @@ git checkout -b fix/my-bugfix
 
 ---
 
-````markdown
 # Contributing Guidelines
 
 Thank you for your interest in contributing.  
