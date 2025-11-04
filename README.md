@@ -107,10 +107,6 @@ The script uses **Playwright** and runs Chromium in headless mode.
 
 ---
 
-Мить, без лишнего — правлю блок **Installation** под **UV**.
-
----
-
 ## 📦 Installation
 
 ### 1) Create a virtual environment & install dependencies via **uv**
@@ -153,4 +149,5 @@ playwright install chromium
 
 ## ✈️ Telegram: **[blacksunder](https://t.me/blacksunder)**
 ## 📧 Mail: **[whiteparser@icloud.com](mailto:whiteparser@icloud.com)**
+
 
